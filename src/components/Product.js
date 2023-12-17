@@ -10,7 +10,7 @@ function Product(props) {
   }  
 
   return (
-    <div className="container   bg-light ">
+    <div className="   bg-light ">
  
 
       <div class="col p-4  h-100   ">
