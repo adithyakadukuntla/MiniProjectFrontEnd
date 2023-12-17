@@ -1,0 +1,35 @@
+.product-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product-card .price {
+    color: #f60;
+    font-size: 14px;
+}
+
+.product-card .description {
+    font-size: 12px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.product-card .rating {
+    color: #f60;
+    font-size: 12px;
+}
