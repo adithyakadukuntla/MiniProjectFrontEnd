@@ -37,10 +37,10 @@ function Details(){
             <p className='mb-4 '>Description: {state.description}</p>
             <p className='mb-4 display-4'>Rating: {state.rating.rate}</p>
             <p className='mb-4 display-4'>Count: {state.rating.count}</p>
-            <button className="btn btn-light" >Add to Cart</button>
+            <button className="btn btn-light  " >Add to Cart</button>
           </div>
         </div>
-        <div className="pt-3 text-center" ><button className="btn btn-danger" onClick={goBack}  >Back</button></div>
+        <div className="pt-3 text-center pb-3 " ><button className="btn btn-danger" onClick={goBack}  >Back</button></div>
       </div>
     </div>
 
