@@ -1,5 +1,5 @@
 import React from 'react'
-import useForm from 'react'
+import {useForm} from 'react'
 function Registration() {
   let {register,handleSubmit,formState: { errors }} = useForm();
 
@@ -12,7 +12,7 @@ function Registration() {
     
       
         <div>
-          <h3 className="text-white bg-secondary mt-4 mb-5 text-center">Assignment-5</h3>
+          <h3 className="text-white bg-secondary mt-4 mb-5 text-center">Registration</h3>
           <div className="container mx-auto mb-5 ">
             <form
               className="w-50 mx-auto form bg-secondary rounded-4 text-white"
@@ -22,7 +22,7 @@ function Registration() {
                   "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px",
               }}
             >
-              <h4 className="ps-5 pt-4 pb-3">Registration form</h4>
+            
               <div className="d-flex justify-content-around">
                 <div className="w-40">
                   <label htmlFor="firstname" className="mb-2">
